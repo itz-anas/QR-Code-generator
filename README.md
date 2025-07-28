@@ -1,41 +1,23 @@
-🧾 QR Code Generator
-A simple, stylish web app that allows users to enter a URL and instantly generate a downloadable QR code.
-If no URL is entered, the app generates a QR code for the current page.
+# 🔗 QR Code Generator
 
-🚀 Features
-🔳 Generate QR codes from any URL
+A simple and stylish web app to **convert any URL into a downloadable QR code** .
 
-📱 Download QR code as PNG
+## 🚀 Features
 
-🔎 Uses current page URL if input is empty
+- 🔍 Clean search box UI
+- 🎨 Custom QR styling: background color, foreground color
+- 📥 Downloadable QR image (PNG)
 
-💻 Clean, responsive UI inside a styled box
+## 🛠️ Tech Stack
 
-🎨 Custom fonts, colors, and modern design
+- HTML, CSS, JavaScript
+- [qr-image](https://www.npmjs.com/package/qr-image)
+- [Jimp](https://www.npmjs.com/package/jimp)
 
-📁 Project Structure
+## 📦 Installation
 
-qr-code-generator/
-│
-├── index.html       
-├── README.md        
-└── (optional) assets/
-    └── logo.png     
-
-
-🌐 How to Use
-Download or clone the repo.
-
-
-git clone https://github.com/your-username/qr-code-generator.git
-cd qr-code-generator
-Open the app
-Just double-click index.html to launch it in your browser.
-
-Use it
-
-Type a URL and click Generate
-
-Or just click Generate to use the current page's URL
-
-Click the Download QR Code link to save the image
+```bash
+git clone https://github.com/itz-anas/QR-Code-generator.git
+cd QR-Code-generator
+npm install
+node index.js
